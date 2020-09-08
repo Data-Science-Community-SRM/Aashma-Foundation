@@ -152,11 +152,14 @@ nav .container #Navbar ul li {
     font-size: 20px;
   }
   #events {
-    margin-top: 5%;
+    margin-top: 8%;
     margin-bottom: 5%;
   }
   #donate {
     margin-bottom: 5%;
+  }
+  .thank {
+    margin-top: 150px;
   }
 }
 @media screen and (min-width: 681px) {
@@ -211,5 +214,11 @@ footer {
 .foot_note {
   margin-top: 24px;
   padding-top: 12px;
+  text-align: center;
+}
+.event-description2 {
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 6%;
   text-align: center;
 }
