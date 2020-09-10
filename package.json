@@ -9,6 +9,7 @@
   "author": "Shubham Deodhar",
   "license": "ISC",
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "bootstrap-social": "^5.1.1"
   }
 }
