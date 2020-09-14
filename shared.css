@@ -22,27 +22,28 @@ body {
   z-index: 999;
 }
 
-#mainMenu li > a {
+#mainMenu li > span {
   font-size: 12px;
   letter-spacing: 1px;
-  color: #fff;
-  font-weight: 400;
+  color: #232323;
+  font-weight: 500;
   position: relative;
   z-index: 1;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .main-header.fixed-nav #mainMenu li > a {
-  color: #fff;
+  color: #696969;
   text-decoration: none;
 }
 
-#mainMenu li > a::before {
+#mainMenu li > span::before {
   position: absolute;
   content: "";
   width: calc(100% - 1px);
   height: 1px;
-  background: #fff;
+  background: #696969;
   bottom: -6px;
   left: 0;
 
@@ -58,8 +59,8 @@ body {
   transition: transform 0.5s ease;
 }
 
-#mainMenu li > a:hover::before,
-#mainMenu li > a.active::before {
+#mainMenu li > span:hover::before,
+#mainMenu li > span.active::before {
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(1, 1);
   transform: scale(1, 1);
@@ -68,13 +69,13 @@ body {
   transform-origin: left center;
 }
 
-.main-header.fixed-nav #mainMenu li > a::before {
+.main-header.fixed-nav #mainMenu li > span::before {
   background: #000;
 }
 
 .main-header {
   position: fixed;
-  background-color: #14a8d4;
+  background-color: #e4fff7;
   left: 0;
   z-index: 99;
   width: 100%;
@@ -187,9 +188,9 @@ body {
 /* Footer */
 
 .sec-footer {
-  background: #14a8d4;
+  background: #e4fff7;
   text-align: left;
-  color: #fff;
+  color: #232323;
   padding-top: 2.5rem;
   padding-bottom: 2rem;
 }
@@ -199,7 +200,7 @@ body {
 }
 .sec-footer .desc-box .card-title::after {
   content: " ";
-  background: #ffffff;
+  background: #696969;
   display: block;
   width: 95%;
   height: 0.2rem;
@@ -210,7 +211,7 @@ body {
   text-align: justify;
 }
 .sec-sub-footer {
-  background: #f2f2f4;
+  background: transparent;
   color: #000;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -224,7 +225,7 @@ body {
 .snip1472 {
   position: relative;
   font-size: 20px;
-  color: #e6e6e6;
+  color: #85386A;
   width: 45px;
   margin: 4px;
   height: 45px;
@@ -243,7 +244,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  border: 2px solid #e6e6e6;
+  border: 2px solid #85386A;
   content: "";
   z-index: -1;
   border-radius: 50%;
@@ -259,12 +260,12 @@ body {
 .snip1472:hover,
 .snip1472:active,
 .snip1472.hover {
-  color: #c0392b;
+  color: #54B6E6;
 }
 .snip1472:hover:after,
 .snip1472:active:after,
 .snip1472.hover:after {
-  border-color: #c0392b transparent #c0392b transparent;
+  border-color: #54B6E6 transparent #54B6E6 transparent;
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
 }

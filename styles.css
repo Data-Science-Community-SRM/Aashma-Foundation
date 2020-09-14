@@ -4,11 +4,11 @@
   height: 100vh;
   background: linear-gradient(
         45deg,
-        rgba(255, 175, 189, 0.7),
-        rgba(100, 216, 243, 0.7),
-        rgba(234, 236, 198, 0.7),
-        rgba(245, 146, 176, 0.7),
-        rgba(52, 219, 216, 0.7)
+        rgba(255, 175, 188, 0.5),
+        rgba(100, 216, 243, 0.5),
+        rgba(234, 236, 198, 0.5),
+        rgba(245, 146, 176, 0.5),
+        rgba(52, 219, 216, 0.5)
       )
       0 0 / 1000% no-repeat,
     url(./assets/children.jpg) 0 0 / cover no-repeat;
@@ -73,13 +73,13 @@
 }
 
 hr {
-  border-bottom: 2px solid #a29bfe;
+  border-bottom: 2px solid #85386A;
   width: 50%;
 }
 .title {
   font-weight: bold;
   font-size: 3rem;
-  color: #a29bfe;
+  color: #59BBE7;
 }
 
 .events {
@@ -93,7 +93,7 @@ hr {
 
 .subtitle {
   font-size: 2rem;
-  color: #a29bfe;
+  color: #59BBE7;
 }
 
 .events .event_description {

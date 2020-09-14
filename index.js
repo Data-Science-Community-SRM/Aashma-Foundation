@@ -1,8 +1,22 @@
-var swiper = new Swiper('.swiper-container', {
-  effect: 'coverflow',
+const navHero = document.getElementById("navHero");
+const hero = document.getElementById("hero");
+const navAbout = document.getElementById("navAbout");
+const about = document.getElementById("about");
+const navIni = document.getElementById("navIni");
+const initiatives = document.getElementById("initiatives");
+const navDonate = document.getElementById("navDonate");
+const donate = document.getElementById("donate");
+
+navHero.addEventListener("click", () => hero.scrollIntoView());
+navAbout.addEventListener("click", () => about.scrollIntoView());
+navIni.addEventListener("click", () => initiatives.scrollIntoView());
+navDonate.addEventListener("click", () => donate.scrollIntoView());
+
+var swiper = new Swiper(".swiper-container", {
+  effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
-  slidesPerView: 'auto',
+  slidesPerView: "auto",
   autoplay: {
     delay: 2500,
   },
@@ -14,6 +28,6 @@ var swiper = new Swiper('.swiper-container', {
     slideShadows: true,
   },
   pagination: {
-    el: '.swiper-pagination',
+    el: ".swiper-pagination",
   },
 });

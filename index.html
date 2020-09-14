@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/logo.jpg" type="image/jpg" sizes="16x16" />
+    <link rel="icon" href="./assets/logo.png" type="image/jpg" sizes="16x16" />
 
     <!-- Bootstrap -->
     <link
@@ -45,7 +45,7 @@
         <nav class="navbar navbar-expand-lg main-nav px-0">
           <div class="col-2">
             <a class="navbar-brand" href="/">
-              <img src="./assets/logo.jpg" alt="aashmaa" width="100%" />
+              <img src="./assets/logo.png" alt="aashmaa" width="100%" />
             </a>
           </div>
           <button
@@ -64,16 +64,16 @@
           <div class="collapse navbar-collapse" id="mainMenu">
             <ul class="navbar-nav ml-auto text-uppercase f1 text-center">
               <li>
-                <a href="#home" class="mx-3">home</a>
+                <span class="mx-3" id="navHero">home</span>
               </li>
               <li>
-                <a href="#about" class="mx-3">about us</a>
+                <span class="mx-3" id="navAbout">about us</span>
               </li>
               <li>
-                <a href="#activities" class="mx-3">activities</a>
+                <span class="mx-3" id="navIni">activities</span>
               </li>
               <li>
-                <a href="#donate" class="mx-3">donate</a>
+                <span class="mx-3" id="navDonate">donate</span>
               </li>
             </ul>
           </div>
@@ -81,7 +81,7 @@
       </div>
     </header>
 
-    <section id="home">
+    <section id="hero">
       <div class="hero">
         <div class="head">
           <h1>Aash-Maa</h1>
@@ -90,7 +90,7 @@
       </div>
     </section>
 
-    <section id="#about">
+    <section id="about">
       <div class="row col-11 col-lg-9 mx-auto my-5 text-center">
         <div class="text-center mx-auto col-12">
           <div class="col-12 col-lg-9 mx-auto mb-5">
@@ -98,28 +98,54 @@
             <hr />
           </div>
         </div>
-        <div class="col-12 col-lg-6 mx-auto">
-          <img src="./assets/logo.jpg" width="100%" alt="aashmaa foundation" />
+        <div class="col-12 col-lg-6 m-auto">
+          <img src="./assets/logo.png" width="100%" alt="aashmaa foundation" />
         </div>
         <div class="col-12 col-lg-6 my-4 my-lg-auto">
-          <h3 class="subtitle">Wha</h3>
-          <p class="event_description">
-            Describe about Your Moto.
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ad
-            quas ab? Facilis perferendis, delectus impedit, eius ipsa dolor sint
-            incidunt velit mollitia saepe debitis.
+          <div>
+            <h3 class="subtitle">Who are we</h3>
+            <p class="event_description">
+              Aash-Maa Foundation is a Non-Governmental Organisation in [insert
+              state] established on [insert date] with the mission of the
+              upliftment of the society and the propogation of the Humanitarian
+              Message.
+            </p>
+          </div>
+          <div>
+            <h3 class="subtitle">Our Vision</h3>
+            <p class="event_description">
+              We are a group of individuals with humanity in our hearts and a
+              common vision in our mind-
+              <strong>Maanav Seva Aash-Maa Tak: Service Beyond Skies</strong>.
+              Every person on this planet carries a dream in their eyes and it
+              is the responsibility of all of us to assist those who don't have
+              the wings to fly. Hence, we believe in spreading global kindness
+              beyond skies, because the sky is the limit.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 mt-5">
+          <h3 class="subtitle">About Our Founder</h3>
+          <p class="event_description text-justify">
+            Do cillum id reprehenderit sit cillum nisi do laboris esse id do
+            aute non voluptate. Excepteur ea enim pariatur et laborum occaecat
+            velit laborum consequat enim non ex. Ea aliquip minim adipisicing
+            magna. Labore aliqua qui sunt elit ea reprehenderit fugiat velit
+            minim mollit. Culpa magna occaecat consectetur labore incididunt
+            incididunt nulla magna dolore aliquip incididunt incididunt. Magna
+            ad eu eiusmod eu culpa ipsum veniam ullamco est ex occaecat
+            consectetur aute Lorem.
           </p>
         </div>
       </div>
     </section>
 
-    <section id="activities">
+    <section id="initiatives">
       <div class="row col-12 px-0 mx-0 events">
         <div class="row col-11 col-lg-9 mx-auto my-5 text-center">
-          <div class="text-center mx-auto col-12">
+          <div class="text-center m-auto col-12">
             <div class="col-12 col-lg-9 mx-auto mb-5">
-              <h1 class="title">Activities</h1>
+              <h1 class="title">Initiatives</h1>
               <hr />
             </div>
           </div>
@@ -161,32 +187,26 @@
                 </div>
               </div>
               <div class="col-12 col-md-6 mx-auto mb-5 my-lg-auto">
-                <h3 class="subtitle">Free Mask Distribution</h3>
+                <h3 class="subtitle">Mask Distribution Drive</h3>
                 <p class="event_description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores quo omnis debitis explicabo nesciunt soluta quasi a
-                  culpa. Quos, saepe.
+                  Our founder, Reena Verma distributed masks and food supplies
+                  amongst the Gas and Vegetable Hawkers after being contacted by
+                  them about the neglect they faced from the society. With this,
+                  she also urged people to help the ones in need who work
+                  everyday to sell them their household supplies.
                 </p>
-                <a href="./gallery1.html">
-                  <button type="button" id="one" class="press">
-                    See all Images
-                  </button>
-                </a>
               </div>
             </div>
             <div class="row">
               <div class="col-12 col-md-5 m-auto">
-                <h3 class="subtitle">Free Acupuncture Camp</h3>
+                <h3 class="subtitle">Acupuncture Campaign</h3>
                 <p class="event_description">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Asperiores quo omnis debitis explicabo nesciunt soluta quasi a
-                  culpa. Quos, saepe.
+                  AMF collaborated with the Accupressure Treatment and Training
+                  center to organise a free Accupressure and Naturopathy Camp
+                  from 26th to 29th February, 2020. The camp provided diagnoses
+                  as well as information to the people on the building and
+                  maintenance of their physical health.
                 </p>
-                <a href="./gallery2.html">
-                  <button type="button" id="one" class="press">
-                    See all Images
-                  </button></a
-                >
               </div>
               <div class="col-12 col-md-6">
                 <div class="swiper-container">
@@ -304,11 +324,6 @@
             <h1 class="title">Donate</h1>
             <hr />
           </div>
-          <a href="./donate.html">
-            <button type="button" id="one" class="press">
-              Banking Details
-            </button>
-          </a>
         </div>
 
         <div class="col-12 col-md-4 mx-auto mt-5">
@@ -334,52 +349,56 @@
     <section class="container-fluid sec-footer">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-12 col-lg-4">
             <div class="card desc-box">
               <div class="card-body">
-                <div class="card-title">Title</div>
-                <div class="card-text">Irure incididunt sit ipsum do.</div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card desc-box">
-              <div class="card-body">
-                <div class="card-title">Lorem</div>
+                <div class="card-title">Contact Us</div>
                 <div class="card-text">
                   <div class="row">
                     <div class="col">
                       <i class="fas fa-phone ml-3"></i>
-                      <span>09XXXXXXX</span>
+                      <span> 09XXXXXXX</span>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col">
                       <i class="fas fa-map-marker ml-3"></i>
-                      <span>Incididunt Lorem ex aute incididunt.</span>
+                      <span> Incididunt Lorem ex aute incididunt.</span>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col">
                       <i class="fas fa-envelope-open ml-3"></i>
-                      <span>info@dsdsdsds.ir</span>
+                      <span> info@dsdsdsds.ir</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col text-center">
-            <img src="" alt="hi" class="mb-3" />
+          <div class="col-12 col-lg-4 text-center">
+            <img src="./assets/logo.png" alt="hi" class="mb-3" width="100%" />
             <br class="clearfix" />
-            <a href="#" class="snip1472"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" class="snip1472"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="snip1472"
-              ><i class="fab fa-telegram-plane"></i
-            ></a>
+            <a href="#" class="snip1472">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="snip1472">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="snip1472">
+              <i class="fab fa-telegram-plane"></i>
+            </a>
             <a href="#" class="snip1472"
               ><i class="fab fa-google-plus-g"></i
             ></a>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card desc-box">
+              <div class="card-body">
+                <div class="card-title">Locate Us</div>
+                <div class="card-text">Irure incididunt sit ipsum do.</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -387,16 +406,8 @@
     <section class="container-fluid sec-sub-footer">
       <div class="container">
         <div class="row">
-          <div class="col text-left">
-            <a class="f-light text-dark">Veniam nostrud aliqua do est.</a>
-            <a class="f-light text-dark">HI</a>
-          </div>
-          <div class="col">
-            <span
-              >Amet eiusmod aute excepteur deserunt commodo occaecat culpa
-              laborum Lorem magna. Aute officia labore mollit cupidatat amet
-              ad..</span
-            >
+          <div class="col text-right">
+            <span class="f-light text-dark">© All Rights Reserved. 2020.</span>
           </div>
         </div>
       </div>
